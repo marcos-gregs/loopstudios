@@ -1,0 +1,131 @@
+.sectionContent{
+    flex: 0 0 90vh;
+    display: flex;
+    flex-direction: column;
+}
+.imgSection{
+    margin-top: 10%;
+    margin-left: 15%;
+    width: 50vw;
+    height: 100vh;
+    background-image: url(./images/desktop/image-interactive.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+.textSection{
+    width: 40vw;
+    height: 51vh;
+    background-color: white;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 20%;
+}
+.textSection>h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 5rem;
+    margin-top: 25%;
+    font-weight: 300;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+.textSection>P{
+    font-family: 'Alata', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 10%;
+    font-weight: 300;
+}
+.textSectionTwo{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    
+}
+.textSectionTwo>h2{
+    font-family: 'Josefin Sans', sans-serif; 
+    font-weight: 300;
+    font-size: 6rem;
+   
+}
+.textSectionTwo>button{    
+    width: 10vw;
+    height: 5vh;
+    font-family: 'Alata', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+    border: .3rem;
+    
+}
+.gridGalery{
+    margin-left: 15%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2%;
+} 
+.gridGalery>div>h1{
+    margin-top: 50vh;
+
+    margin-left: 10%;
+    margin-right: 15%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4rem;
+    font-weight: 300;
+    color: rgb(217, 214, 214);
+}
+.grid{
+    height: 70vh;
+    background-image: url('./images/desktop/image-deep-earth.jpg'),linear-gradient(0deg, rgba(2, 0, 36, 0.507) 0%, rgba(22, 22, 27, 0.114) 26%, rgb(57, 50, 50) 100%);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.grid1{
+    height: 70vh;
+    background-image: url('./images/desktop/image-night-arcade.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid2{
+    height: 70vh;
+    background-image: url('./images/desktop/image-soccer-team.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid3{
+    height: 70vh;
+    background-image: url('./images/desktop/image-grid.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid4{
+    height: 70vh;
+    background-image: url('./images/desktop/image-from-above.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid5{
+    height: 70vh;
+    background-image: url('./images/desktop/image-pocket-borealis.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid6{
+    height: 70vh;
+    background-image: url('./images/desktop/image-curiosity.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid7{
+    height: 70vh;
+    background-image: url('./images/desktop/image-fisheye.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
